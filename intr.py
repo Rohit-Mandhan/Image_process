@@ -72,7 +72,7 @@ def thresholding(image, thresh_value=128):
 st.title("Advanced Image Processing with OpenCV and Streamlit")
 
 # Uploading the image
-uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("Upload any image...", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
     # Convert the uploaded file to an OpenCV image
